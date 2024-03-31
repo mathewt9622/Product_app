@@ -22,6 +22,11 @@ const Navbar = () => {
                             Category
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/user" className="nav-links">
+                           Users
+                        </Link>
+                    </li>
                     {/* Add more navigation items as needed */}
                 </ul>
             </div>
